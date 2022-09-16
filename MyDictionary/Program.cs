@@ -11,5 +11,6 @@ keyValuePairs.Add(1, "JANUARY");
 keyValuePairs.Add(2, "FEBRUARY");
 keyValuePairs.Add(3, "MARCH");
 keyValuePairs.Add(4, "APRIL");
+
 //list fonksiyonu ile degerlerin eklendigini gorebilirsin.
 keyValuePairs.List();

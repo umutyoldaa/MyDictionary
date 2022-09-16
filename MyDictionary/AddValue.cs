@@ -8,12 +8,14 @@ namespace MyDictionary
 {
     internal class AddValue<TK, TV>
     {
-        public TK[] Key;
-        public TV[] Value;
-        public TK[] TempKey;
-        public TV[] TempValue;
+        
+        private TK[] Key;
+        private TV[] Value;
+        private TK[] TempKey;
+        private TV[] TempValue;
         public AddValue()
         {
+         
             Key = new TK[0];
             Value = new TV[0];
         }
@@ -41,5 +43,20 @@ namespace MyDictionary
 
             }
         }
+        public TK[] key
+        {
+            get
+            {
+                return Key;
+            }
+        }
+        public TV[] value
+        {
+            get
+            {
+                return Value;
+            }
+        }
+        
     }
 }
